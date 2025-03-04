@@ -1,0 +1,49 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: poppins;
+    font-weight: bold;
+    text-align: center;
+    color: #283618;
+}
+
+h1 {
+    font-family: "Sigmar", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 600;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+#increment-btn {
+    background: #606c38;
+    padding: 12px 0px 12px 0px;
+
+}
+
+#save-btn {
+    color: #283618;
+    background: transparent;
+    border: 3px solid #606c38;
+}
+
+#main {
+    text-align: center;
+    margin-top:50px;
+}
